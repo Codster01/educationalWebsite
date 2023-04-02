@@ -1,0 +1,23 @@
+.btn{
+-webkit-text-size-adjust: 100%;
+word-break: break-word;
+word-wrap: break-word;
+box-sizing: border-box;
+font: inherit;
+overflow: visible;
+text-transform: none;
+-webkit-appearance: button;
+background-color: #eee;
+color: #444;
+text-align: center;
+border: none;
+border-left: 4px solid #444;
+margin: 6px auto;
+line-height: 2;
+width: 100%;
+}
+.btn:hover{
+    background-color: rgb(83, 83, 83);
+    color:#eee;
+    transition: ease-in 0.3s;
+}
